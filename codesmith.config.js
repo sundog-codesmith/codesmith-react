@@ -21,7 +21,7 @@ module.exports = function (codesmith) {
             {
                 type: 'add',
                 path: '{{basePath}}/{{dashCase name}}.tsx',
-                templateFile: 'class-component-ts/templates/component.ts',
+                templateFile: 'class-component-ts/templates/component.tsx',
                 abortOnFail: true
             }
         ]
