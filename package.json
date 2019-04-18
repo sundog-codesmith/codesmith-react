@@ -1,0 +1,20 @@
+{
+    "name": "@codestore/react",
+    "version": "1.0.0",
+    "description": "",
+    "main": "codesmith.config.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/sundog-codesmith/codesmith-react.git"
+    },
+    "author": "",
+    "bugs": {
+      "url": "https://github.com/sundog-codesmith/codesmith-react/issues"
+    },
+    "homepage": "https://github.com/sundog-codesmith/codesmith-react#readme",
+    "license": "ISC"
+  }
+  
