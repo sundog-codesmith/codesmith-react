@@ -5,7 +5,7 @@ function {{pascalCase name}}() {
   const [count, setCount] = React.useState(0);
 
   return (
-    <div>
+    <div className="p-{{dashCase name}}">
     </div>
   );
 }
