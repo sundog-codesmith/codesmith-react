@@ -103,7 +103,7 @@ module.exports = function (codesmith) {
         ]
     });
 
-    codesmith.setGenerator('functional-component-ts', {
+    codesmith.setGenerator('functional-component-ts-less', {
         description: 'Add a new functional component(ts) with less',
         questions: [
             {
