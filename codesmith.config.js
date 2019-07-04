@@ -102,4 +102,32 @@ module.exports = function (codesmith) {
             }
         ]
     });
+
+    codesmith.setGenerator('functional-component-ts', {
+        description: 'Add a new functional component(ts) with less',
+        questions: [
+            {
+                type: 'directory',
+                name: 'basePath',
+                message: 'Where you like to put this component?',
+                basePath: ".",
+            },
+            {
+                type: 'input',
+                name: 'name',
+                message: "What's your component class name?"
+            }
+        ],
+        actions: [
+            {
+                type: 'addMany',
+                path: '{{basePath}}/{{dashCase name}}',
+                templateFiles: [
+                    'generators/functional-component-ts-less/templates/index.tsx',
+                    'generators/functional-component-ts-less/templates/index.less',
+                ],
+                abortOnFail: true
+            }
+        ]
+    });
 };
